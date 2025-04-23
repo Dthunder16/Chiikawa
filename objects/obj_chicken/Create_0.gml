@@ -1,6 +1,16 @@
 //Movement
 move_speed = 0.2;
 
+//Laying Egg
+has_laid_egg = false;
+
+function check_laid(){
+	if(!has_laid_egg){
+		instance_create_layer(x, y, "Instances", obj_egg);
+		has_laid_egg = true;
+	}
+}
+
 //States
 	//Movement
 	enum ChickenMove {

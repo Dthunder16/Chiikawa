@@ -8,9 +8,9 @@ apple =
 		sprite: spr_apple
 	}
 
-apple = 
+egg = 
 	{
-		name: "Apple",
+		name: "Egg",
 		description: "A crisp, juicy apple that adds a touch of sweetness and a crunch to any dish.",
 		sprite: spr_apple
 	}

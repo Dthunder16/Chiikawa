@@ -18,7 +18,6 @@ hSpeedCam = hSpeed;
 vSpeedCam = vSpeed;
 
 if(!stop_movement){
-	
 	//Sprite Change
 	var old_sprite = sprite_index;
 	image_speed = 0.25;
@@ -69,4 +68,5 @@ if(!stop_movement){
 	}
 }
 
+//Pick Up Code
 
