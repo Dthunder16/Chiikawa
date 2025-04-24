@@ -59,12 +59,12 @@ if(!stop_movement){
 	//Movement Code
 	if (!place_meeting(x + hSpeed, y, obj_solid)){ 
 		x += hSpeed;
-		obj_camera.targetX += hSpeedCam;
+		obj_camera.target_x += hSpeedCam;
 	}
     
 	if (!place_meeting(x, y + vSpeed, obj_solid)){
 		y += vSpeed;
-		obj_camera.targetY += vSpeedCam;
+		obj_camera.target_y += vSpeedCam;
 	}
 }
 

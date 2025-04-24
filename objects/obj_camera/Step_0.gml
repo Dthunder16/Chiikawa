@@ -1,1 +1,1 @@
-camera_set_view_pos(view_camera[0],targetX, targetY);
+camera_set_view_pos(view_camera[0],target_x, target_y);
