@@ -94,6 +94,6 @@ else{
     if (action_state_timer <= 0) {
         // Back to movement
         is_moving = true;
-        movement_state_timer = irandom_range(200, 400); // Random movement duration
+        movement_state_timer = irandom_range(80, 300); // Random movement duration
     }
 }
